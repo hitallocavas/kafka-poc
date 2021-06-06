@@ -12,4 +12,6 @@ public class KafkaVariables {
     public static String getOrderTopic(){
         return environments.get("ORDER_TOPIC");
     }
+
+    public static String getFraudGroup() { return environments.get("FRAUD_GROUP"); }
 }

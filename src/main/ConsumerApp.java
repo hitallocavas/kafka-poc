@@ -2,7 +2,7 @@ import producer.NewOrderProducer;
 
 import java.util.concurrent.ExecutionException;
 
-public class App {
+public class ProducerApp {
 
     public static void main(String[] args) {
         var newOrderProducer = new NewOrderProducer();
